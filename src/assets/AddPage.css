@@ -1,0 +1,44 @@
+#addBody {
+    width: 50vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 25%;
+    top: 0;
+}
+
+form {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.btn > button {
+    margin: 10px 10px 10px 0px;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn > button:nth-child(1) {
+    background-color: greenyellow;
+}
+
+input {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.btn > button:nth-child(2) {
+    background-color: tomato;
+}

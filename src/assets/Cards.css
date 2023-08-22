@@ -1,0 +1,42 @@
+.Edit {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    width: 100%;
+    margin: 20px;
+    height: 30vh;
+    display: flex;
+    left: 30%;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+#left {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    background-color: white !important;
+}
+
+img {
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    object-fit: cover;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
+#buttons>button {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
